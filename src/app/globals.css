@@ -25,3 +25,26 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+.main-content {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.main-content-loaded {
+    opacity: 1;
+}
+
+.iframe-container {
+  display: flex;
+  justify-content: center; /* Center the iframe horizontally */
+  margin-top: 16px; /* Add some top margin */
+}
+
+.iframe-container iframe {
+  border: none;
+}
+
+
+
